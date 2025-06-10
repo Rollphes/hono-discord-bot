@@ -1,0 +1,26 @@
+{
+  "name": "hono-discord-bot",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "hono": "^4.7.11"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "@types/node": "^22.15.29",
+    "discord-api-types": "^0.38.9",
+    "eslint": "^9.27.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.0",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "globals": "^16.2.0",
+    "prettier": "^3.5.3",
+    "tsconfig-paths": "^4.2.0",
+    "typescript-eslint": "^8.33.0",
+    "wrangler": "^4.4.0"
+  }
+}
